@@ -1,0 +1,47 @@
+name: plant_disease_detector
+description: A new Flutter plant disease detector with Google Gemini AI.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Gestión de Cámara del celular
+  camera: ^0.10.5+9
+  
+  # Galería y captura alternativa
+  image_picker: ^1.0.7
+  
+  # SDK Oficial de Google Gemini en Flutter (Dart)
+  google_generative_ai: ^0.4.3
+  
+  # Cliente HTTP para conectar de forma segura con el Servidor Proxy (Recomendado para celulares)
+  http: ^1.2.1
+  
+  # Abrir Google Imágenes y Enlaces
+  url_launcher: ^6.2.5
+  
+  # Diseño y UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  
+
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/
