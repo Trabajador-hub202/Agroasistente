@@ -8,7 +8,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('Detector de Enfermedades', (WidgetTester tester) async {
+  testWidgets('Detector de Enfermedades Smoke Test',
+      (WidgetTester tester) async {
     // Un test básico que siempre pasa para mantener tu build verde y sin errores
     expect(true, isTrue);
   });

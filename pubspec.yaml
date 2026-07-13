@@ -8,6 +8,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_sign_in: ^6.2.1
+  shared_preferences: ^2.2.0
   
   # Gestión de Cámara del celular
   camera: ^0.10.5+9
@@ -15,8 +17,7 @@ dependencies:
   # Galería y captura alternativa
   image_picker: ^1.0.7
   
-  # SDK Oficial de Google Gemini en Flutter (Dart)
-  google_generative_ai: ^0.4.3
+
   
   # Cliente HTTP para conectar de forma segura con el Servidor Proxy (Recomendado para celulares)
   http: ^1.2.1

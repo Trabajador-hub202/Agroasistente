@@ -4,11 +4,11 @@ import 'plant_detector_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const CropCareApp());
+  runApp(const AgroasistenteApp());
 }
 
-class CropCareApp extends StatelessWidget {
-  const CropCareApp({super.key});
+class AgroasistenteApp extends StatelessWidget {
+  const AgroasistenteApp({super.key});
 
   @override
   Widget build(BuildContext context) {
