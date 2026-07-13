@@ -3,6 +3,7 @@
 Aplicación móvil multiplataforma para el sector agrícola (AgroTech) desarrollada bajo la metodología Vibe Coding. El sistema captura imágenes en tiempo real mediante visión computacional, procesa los datos de forma segura a través de la API de Gemini, utiliza este modelo para identificar la  patologías vegetales y sugerir tratamientos específicos.
 ## 🔗 Demo en Vivo: 
 Nota: Requiere permisos de cámara simulados o carga de la galeria de imágenes).
+
 🎥 Demostración en Video: https://drive.google.com/file/d/1lILm8J0SXwBZXNzlCYb1MjP-dxuAmR-A/view?usp=sharing
 ## 🛠️ Stack Tecnológico & Arquitectura*   
 *  Frontend Mobile: Flutter (Dart)
